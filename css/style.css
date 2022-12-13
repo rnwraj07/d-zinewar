@@ -106,6 +106,12 @@ p {
     transition: all .5s;
 }
 
+.image {
+    /* box-shadow: -1px 10px 40px -4px rgba(0,0,0,0.3); */
+    box-shadow: 11px 12px 21px -7px rgba(0,0,0,0.5);
+}
+
+
 .image img:hover {
     transform: scale(1.1);
 }
