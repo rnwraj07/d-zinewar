@@ -1,0 +1,115 @@
+:root {
+    --bg-color: #21262D;
+    --bg-color-1: #13131F;
+    --bg-color-2: #21262D;
+    --bg-color-3: #282F3A;
+    --primary-color: #F68B1F;
+    --primary-font: "evil";
+}
+
+body {
+    background-color: var(--bg-color) !important;
+    font-family: "poppins";
+    color: var(--bs-white);
+}
+
+.logo {
+    width: 10%;
+}
+
+.menu {
+    background-color: var(--bg-color-1);
+    padding: 10px 0;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.menu .nav .nav-item a {
+    color: var(--bs-white);
+}
+
+.menu .nav .nav-item i {
+    font-size: 12px;
+}
+
+.carousel-inner p {
+    font-size: 20px;
+    color: var(--bs-white);
+    font-weight: 300;
+}
+
+.btn {
+    border: 2px solid var(--bs-white);
+    border-radius: 5px;
+    color: var(--bs-white) !important;
+    background-color: transparent;
+    font-size: 14PX;
+    width: 150px;
+    height: 45px;
+    font-weight: 600;
+    margin-right: 20px;
+}
+
+.btn1 {
+    background-color: var(--primary-color);
+    border: 2px solid var(--bs-white);
+    border-radius: 5px;
+    font-weight: 600;
+    color: var(--bs-white);
+    font-size: 14PX;
+    width: 150px;
+    height: 45px;
+}
+
+.slide-height {
+    height: 80vh;
+}
+
+h1 {
+    color: var(--bs-white);
+    font-family: var(--primary-font);
+}
+
+h2 {
+    color: var(--bs-white);
+}
+
+h3 {
+    color: var(--bs-white);
+}
+
+h4 {
+    color: var(--primary-color);
+}
+
+h6 {
+    margin-bottom: 0 !important;
+}
+
+
+p {
+    color: var(--bs-white);
+    font-size: 15px;
+}
+
+.top-game {
+    background-color: var(--bg-color-3);
+}
+
+.image {
+    overflow: hidden;
+}
+
+.image img {
+    transition: all .5s;
+}
+
+.image img:hover {
+    transform: scale(1.1);
+}
+
+.heading-box {
+    background-color: var(--bg-color-3);
+}
