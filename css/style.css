@@ -3,6 +3,7 @@
     --bg-color-1: #13131F;
     --bg-color-2: #21262D;
     --bg-color-3: #282F3A;
+    --secondary-color: #CECECE;
     --primary-color: #F68B1F;
     --primary-font: "evil";
 }
@@ -118,4 +119,65 @@ p {
 
 .heading-box {
     background-color: var(--bg-color-3);
+}
+
+.focus-bg{
+    background-image: url(../image/21.jpg);
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 70px 0;
+    background-position: center;
+}
+.focus-bg .focus-title{
+    text-align: center;
+    margin-bottom: 70px;
+}
+.focus-bg .focus-title .sub-title{
+    font-size: 20px;
+    text-transform: capitalize;
+    color:var(--primary-color);
+}
+.focus-bg .focus-title .title{
+    text-transform: capitalize;
+    color: var(--secondary-color);
+    font-size: 50px;
+   
+}
+.title span{
+    color: #f68b1f;
+}
+.blog-post{
+    padding: 20px;
+    overflow: hidden;
+    border-radius: 10px;
+    background: var(--bg-color-3);
+}
+
+.focus-img{
+    border-radius: 10px;
+    overflow: hidden;
+}
+.focus-content{
+    padding: 10px 10px;
+}
+.blog-title{
+    font-size: 20px;
+    font-weight: 700;
+    color: #dedede;
+}
+.focus-content p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #a7a7a7;
+    line-height: 28px;
+}
+.focus-content a{
+    font-size: 16px;
+    color: #c5c5c5;
+    font-weight: 700;
+    position: relative;
+    display: inline-block;
+    line-height: 16px;
 }
