@@ -67,6 +67,7 @@ body {
 .slide-height {
     height: 80vh;
 }
+
 a {
     text-decoration: none;
 }
@@ -127,7 +128,7 @@ ul {
     width: 170px;
     height: 170px;
     padding: 10px;
-} 
+}
 
 .sub-menu .top-team .border-box .menu-image-hover {
     width: 150px;
@@ -143,13 +144,14 @@ ul {
     opacity: 1;
 }
 
-.sub-menu .top-team .border-box img:hover{
+.sub-menu .top-team .border-box img:hover {
     transform: scale(1.2) rotate(10deg);
 }
 
 .sub-menu .top-team h3 a {
     transition: .5s ease-in-out;
 }
+
 .sub-menu .top-team h3 a:hover {
     color: var(--primary-color);
 }
@@ -167,13 +169,14 @@ ul {
     transition: .5 ease-in-out;
     border-top: 2px solid var(--primary-color);
 }
+
 /* 
 .sub-menu-1 ul li a {
     transition: .5 ease-in-out !important;   
 } */
 
 .sub-menu-1 ul li a:hover {
-    color: var(--primary-color)!important;
+    color: var(--primary-color) !important;
 }
 
 /* ------------------------------sub-menu-blog */
@@ -359,10 +362,6 @@ ul {
     color: #f68b1f;
 }
 
-.tricks {
-    padding: 100px 0;
-}
-
 .tips-content h3 {
     font-weight: 600;
     line-height: 35px;
@@ -388,7 +387,7 @@ ul {
     padding-bottom: 59.7%;
     height: 0;
     overflow: hidden;
-    max-width: 100%;
+    max-width: 80%;
     /* background-color: #191a1c; */
     cursor: pointer;
 }
@@ -399,10 +398,8 @@ ul {
     height: 80px;
     width: 80px;
     font-size: 50px;
-    margin-top: 7px;
-    margin-left: 3px;
     position: absolute;
-    top: 50%;
+    top: 43%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: #fff;
@@ -484,4 +481,127 @@ ul {
 
 .product {
     background-color: var(--bg-color-1);
+}
+
+.product-bg-color {
+    background-color: var(--bg-color-3);
+}
+
+.product-bg-color .product-image{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+.product-bg-color .product-image img {
+    transition: .5s all;
+    width: 150px;
+    height: 150px;
+    cursor: pointer;
+}
+
+.product-bg-color .product-image img:hover {
+    transform: scale(1.2) rotate(10deg);
+} 
+
+.product-bg-color .cnt {
+    padding-left: 40px;
+}
+
+.product-bg-color .cnt p {
+    color: var(--secondary-color);
+}
+
+.product-bg-color a {
+    font-size: 16px;
+    color: var(--primary-color);
+    font-weight: 700;
+    text-decoration: none;
+    position: relative;
+    transition: all .5s;
+    display: inline-block;
+    line-height: 16px;
+}
+
+.product-bg-color a::after {
+    position: absolute;
+    content: "";
+    bottom: -5px;
+    left: 0;
+    height: 1px;
+    width: 0;
+    transition: .5s all ease-in-out;
+    background-color: var(--primary-color);
+}
+
+.product-bg-color a:hover::after {
+    height: 1px;
+    width: 100%;
+}
+.product-bg-color .cnt h3 {
+    transition: .5s ease-in-out;
+    cursor: pointer;
+}
+
+.product-bg-color .cnt h3:hover {
+    color: var(--primary-color);
+}
+
+.game .game-box {
+    background-color: #1A1C20;
+}
+
+.game p {
+    color: var(--secondary-color);
+    transition: ease-in-out .5s;
+    cursor: pointer;
+}
+
+
+.game p:hover {
+    color: var(--primary-color);
+}
+
+
+.home-work {
+    background-color: var(--bg-color-1);
+}
+.home-work p {
+    color: var(--secondary-color);
+}
+
+.home-work .first-box {
+    background-color: var(--bg-color-3);
+    padding: 50px 70px;
+}
+
+.home-work .second-box {
+    padding: 50px 70px;
+    background-color: var(--bg-color-2);
+}
+
+.home-work .icon {
+    font-size: 60px;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+}
+
+.home-work h3 {
+    transition: .5s ease-in-out;
+    cursor: pointer;
+}
+
+.home-work .first-box:hover h3{
+    color: var(--primary-color);
+}
+
+.home-work .first-box:hover .icon {
+    color: var(--primary-color);
+}
+
+.home-work .second-box:hover h3{
+    color: var(--primary-color);
+}
+
+.home-work .second-box:hover .icon {
+    color: var(--primary-color);
 }
