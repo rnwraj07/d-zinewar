@@ -67,6 +67,9 @@ body {
 .slide-height {
     height: 80vh;
 }
+a {
+    text-decoration: none;
+}
 
 h1 {
     color: var(--bs-white);
@@ -75,6 +78,7 @@ h1 {
 
 h2 {
     color: var(--bs-white);
+    font-family: var(--primary-font);
 }
 
 h3 {
@@ -95,6 +99,113 @@ p {
     font-size: 15px;
 }
 
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+/*-------------------------------------------- header -------------------------------------------- */
+
+/* --------------------------------sub-menu-page */
+
+.sub-menu {
+    z-index: 1;
+    background-color: var(--bg-color-1);
+    padding: 35px;
+    top: 100%;
+    opacity: 0;
+    display: block;
+    transition: .5 ease-in-out;
+    width: 55%;
+    right: 125px;
+    border-top: 2px solid var(--primary-color);
+}
+
+
+.sub-menu .top-team .border-box {
+    background-color: var(--bg-color-3);
+    width: 170px;
+    height: 170px;
+    padding: 10px;
+} 
+
+.sub-menu .top-team .border-box .menu-image-hover {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+}
+
+.sub-menu .top-team .border-box img {
+    transition: all .5s;
+}
+
+.sub-hover:hover .sub-page {
+    opacity: 1;
+}
+
+.sub-menu .top-team .border-box img:hover{
+    transform: scale(1.2) rotate(10deg);
+}
+
+.sub-menu .top-team h3 a {
+    transition: .5s ease-in-out;
+}
+.sub-menu .top-team h3 a:hover {
+    color: var(--primary-color);
+}
+
+/* ------------------------------sub-menu-esport */
+
+.sub-menu-1 {
+    z-index: 1;
+    background-color: var(--bg-color-1);
+    padding: 20px;
+    top: 100%;
+    right: 275px;
+    opacity: 0;
+    display: block;
+    transition: .5 ease-in-out;
+    border-top: 2px solid var(--primary-color);
+}
+/* 
+.sub-menu-1 ul li a {
+    transition: .5 ease-in-out !important;   
+} */
+
+.sub-menu-1 ul li a:hover {
+    color: var(--primary-color)!important;
+}
+
+/* ------------------------------sub-menu-blog */
+
+.sub-menu-2 {
+    z-index: 1;
+    background-color: var(--bg-color-1);
+    padding: 20px;
+    top: 100%;
+    right: 175px;
+    opacity: 0;
+    display: block;
+    transition: .5 ease-in-out;
+    border-top: 2px solid var(--primary-color);
+}
+
+/* ------------------------------sub-menu-shop */
+
+.sub-menu-3 {
+    z-index: 1;
+    background-color: var(--bg-color-1);
+    padding: 20px;
+    top: 100%;
+    right: 125px;
+    opacity: 0;
+    display: block;
+    transition: .5 ease-in-out;
+    border-top: 2px solid var(--primary-color);
+}
+
+/*-------------------------------------------- section2 -------------------------------------------- */
+
 .top-game {
     background-color: var(--bg-color-3);
 }
@@ -110,7 +221,6 @@ p {
 .image {
     box-shadow: 11px 12px 21px -7px rgba(0, 0, 0, 0.5);
 }
-
 
 .image img:hover {
     transform: scale(1.2) rotate(5deg);
@@ -198,7 +308,8 @@ p {
     display: inline-block;
     line-height: 16px;
 }
-.focus-content a::after{
+
+.focus-content a::after {
     position: absolute;
     content: "";
     bottom: -5px;
@@ -208,7 +319,8 @@ p {
     transition: .5s all ease-in-out;
     background-color: var(--primary-color);
 }
-.focus-content a:hover::after{
+
+.focus-content a:hover::after {
     height: 1px;
     width: 100%;
     background-color: var(--primary-color);
@@ -218,8 +330,6 @@ p {
     transition: all .5s;
     cursor: pointer;
 }
-
- 
 
 .focus-content a:hover {
     color: var(--primary-color);
@@ -235,4 +345,143 @@ p {
 
 .recent-team {
     background-color: var(--bg-color-3);
+}
+
+.title2 {
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 35px;
+    color: #dedede;
+    margin-bottom: 15px;
+}
+
+.title2 span {
+    color: #f68b1f;
+}
+
+.tricks {
+    padding: 100px 0;
+}
+
+.tips-content h3 {
+    font-weight: 600;
+    line-height: 35px;
+    color: #dedede;
+    margin-bottom: 15px;
+}
+
+.tips-bg {
+    background-image: url(../image/1.png);
+    max-width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.trick-img {
+    padding: 50px 80px 50px 50px;
+}
+
+.trick-img .tp-img {
+    border-radius: 10px;
+    position: relative;
+    padding-bottom: 59.7%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    /* background-color: #191a1c; */
+    cursor: pointer;
+}
+
+.trick-img .tp-img::after {
+    content: '';
+    background-image: url(../image/play.png);
+    height: 80px;
+    width: 80px;
+    font-size: 50px;
+    margin-top: 7px;
+    margin-left: 3px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.img1 {
+    background-image: url(../image/13.jpg);
+    height: 247px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.tips-content a {
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 14px !important;
+    border: 2px solid #FFF;
+    color: #FFF;
+    text-transform: uppercase;
+    line-height: 25px;
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.sub-title {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #f68b1f;
+}
+
+.title2 {
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 35px;
+    color: #dedede;
+    margin-bottom: 15px;
+}
+
+.title2 span {
+    color: #f68b1f;
+}
+
+.tips-content p {
+    font-size: 18px;
+    line-height: 28px;
+    color: #c4c4c4;
+}
+
+.title1 {
+    text-transform: uppercase;
+    color: #dedede;
+    font-size: 50px;
+}
+
+.title span {
+    color: #f68b1f;
+}
+
+.blog-title {
+    font-size: 22px;
+    font-weight: 700;
+    color: #dedede;
+}
+
+.title p {
+    font-size: 18px;
+    line-height: 28px;
+    color: #dedede;
+}
+
+.product {
+    background-color: var(--bg-color-1);
 }
