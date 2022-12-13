@@ -108,20 +108,19 @@ p {
 }
 
 .image {
-    /* box-shadow: -1px 10px 40px -4px rgba(0,0,0,0.3); */
-    box-shadow: 11px 12px 21px -7px rgba(0,0,0,0.5);
+    box-shadow: 11px 12px 21px -7px rgba(0, 0, 0, 0.5);
 }
 
 
 .image img:hover {
-    transform: scale(1.1);
+    transform: scale(1.2) rotate(5deg);
 }
 
 .heading-box {
     background-color: var(--bg-color-3);
 }
 
-.focus-bg{
+.focus-bg {
     background-image: url(../image/21.jpg);
     width: 100%;
     height: auto;
@@ -130,54 +129,112 @@ p {
     padding: 70px 0;
     background-position: center;
 }
-.focus-bg .focus-title{
+
+.focus-bg .focus-title {
     text-align: center;
     margin-bottom: 70px;
 }
-.focus-bg .focus-title .sub-title{
+
+.focus-bg .focus-title .sub-title {
     font-size: 20px;
     text-transform: capitalize;
-    color:var(--primary-color);
+    color: var(--primary-color);
 }
-.focus-bg .focus-title .title{
+
+.focus-bg .focus-title .title {
     text-transform: capitalize;
     color: var(--secondary-color);
     font-size: 50px;
-   
+
 }
-.title span{
+
+.title-1 {
     color: #f68b1f;
 }
-.blog-post{
+
+.blog-post {
     padding: 20px;
     overflow: hidden;
     border-radius: 10px;
     background: var(--bg-color-3);
 }
 
-.focus-img{
+.focus-img {
     border-radius: 10px;
     overflow: hidden;
 }
-.focus-content{
+
+.focus-img img {
+    transition: all .5s;
+
+}
+
+.focus-img img:hover {
+    transform: scale(1.2) rotate(5deg);
+}
+
+.focus-content {
     padding: 10px 10px;
 }
-.blog-title{
+
+.blog-title {
     font-size: 20px;
     font-weight: 700;
     color: #dedede;
 }
-.focus-content p{
+
+.focus-content p {
     font-size: 16px;
     font-weight: 500;
     color: #a7a7a7;
     line-height: 28px;
 }
-.focus-content a{
+
+.focus-content a {
     font-size: 16px;
     color: #c5c5c5;
     font-weight: 700;
+    text-decoration: none;
     position: relative;
+    transition: all .5s;
     display: inline-block;
     line-height: 16px;
+}
+.focus-content a::after{
+    position: absolute;
+    content: "";
+    bottom: -5px;
+    left: 0;
+    height: 1px;
+    width: 0;
+    transition: .5s all ease-in-out;
+    background-color: var(--primary-color);
+}
+.focus-content a:hover::after{
+    height: 1px;
+    width: 100%;
+    background-color: var(--primary-color);
+}
+
+.focus-content h3 {
+    transition: all .5s;
+    cursor: pointer;
+}
+
+ 
+
+.focus-content a:hover {
+    color: var(--primary-color);
+}
+
+.focus-content h3:hover {
+    color: var(--primary-color);
+}
+
+.team-score {
+    background-color: var(--bg-color-3);
+}
+
+.recent-team {
+    background-color: var(--bg-color-3);
 }
