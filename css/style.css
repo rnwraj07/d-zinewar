@@ -485,13 +485,15 @@ ul {
 
 .product-bg-color {
     background-color: var(--bg-color-3);
+    margin-bottom: 24px;
 }
 
-.product-bg-color .product-image{
+.product-bg-color .product-image {
     border-radius: 50%;
     width: 150px;
     height: 150px;
 }
+
 .product-bg-color .product-image img {
     transition: .5s all;
     width: 150px;
@@ -501,7 +503,7 @@ ul {
 
 .product-bg-color .product-image img:hover {
     transform: scale(1.2) rotate(10deg);
-} 
+}
 
 .product-bg-color .cnt {
     padding-left: 40px;
@@ -537,6 +539,7 @@ ul {
     height: 1px;
     width: 100%;
 }
+
 .product-bg-color .cnt h3 {
     transition: .5s ease-in-out;
     cursor: pointer;
@@ -548,6 +551,11 @@ ul {
 
 .game .game-box {
     background-color: #1A1C20;
+    transition: .7s ease-in-out;
+}
+
+.game .game-box:hover {
+    background-color: #4D4C4C;
 }
 
 .game p {
@@ -565,6 +573,7 @@ ul {
 .home-work {
     background-color: var(--bg-color-1);
 }
+
 .home-work p {
     color: var(--secondary-color);
 }
@@ -590,7 +599,7 @@ ul {
     cursor: pointer;
 }
 
-.home-work .first-box:hover h3{
+.home-work .first-box:hover h3 {
     color: var(--primary-color);
 }
 
@@ -598,10 +607,11 @@ ul {
     color: var(--primary-color);
 }
 
-.home-work .second-box:hover h3{
+.home-work .second-box:hover h3 {
     color: var(--primary-color);
 }
 
 .home-work .second-box:hover .icon {
     color: var(--primary-color);
 }
+
