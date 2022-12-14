@@ -74,6 +74,7 @@ a {
 
 h1 {
     color: var(--bs-white);
+    font-size: 50px;
     font-family: var(--primary-font);
 }
 
@@ -114,14 +115,22 @@ ul {
     background-color: var(--bg-color-1);
     padding: 35px;
     top: 100%;
-    opacity: 0;
-    display: block;
-    transition: .5 ease-in-out;
+    transition: .5s ease-in-out;
     width: 55%;
+    opacity: 0;
+    visibility: hidden;
     right: 125px;
     border-top: 2px solid var(--primary-color);
 }
 
+.menu ul li .sub-hover:hover {
+    color: var(--primary-color);
+}
+
+.nav li:hover .sub-menu {
+    visibility: visible;
+    opacity: 1;
+}
 
 .sub-menu .top-team .border-box {
     background-color: var(--bg-color-3);
@@ -138,10 +147,6 @@ ul {
 
 .sub-menu .top-team .border-box img {
     transition: all .5s;
-}
-
-.sub-hover:hover .sub-page {
-    opacity: 1;
 }
 
 .sub-menu .top-team .border-box img:hover {
@@ -165,15 +170,20 @@ ul {
     top: 100%;
     right: 275px;
     opacity: 0;
+    visibility: hidden;
     display: block;
-    transition: .5 ease-in-out;
+    transition: .5s ease-in-out;
     border-top: 2px solid var(--primary-color);
 }
 
-/* 
-.sub-menu-1 ul li a {
-    transition: .5 ease-in-out !important;   
-} */
+.menu ul li .sub-hover:hover {
+    color: var(--primary-color);
+}
+
+.nav li:hover .sub-menu-1 {
+    visibility: visible;
+    opacity: 1;
+}
 
 .sub-menu-1 ul li a:hover {
     color: var(--primary-color) !important;
@@ -187,10 +197,20 @@ ul {
     padding: 20px;
     top: 100%;
     right: 175px;
+    visibility: hidden;
     opacity: 0;
     display: block;
-    transition: .5 ease-in-out;
+    transition: .5s ease-in-out;
     border-top: 2px solid var(--primary-color);
+}
+
+.nav li:hover .sub-menu-2 {
+    visibility: visible;
+    opacity: 1;
+}
+
+.sub-menu-2 ul li a:hover {
+    color: var(--primary-color) !important;
 }
 
 /* ------------------------------sub-menu-shop */
@@ -200,11 +220,15 @@ ul {
     background-color: var(--bg-color-1);
     padding: 20px;
     top: 100%;
-    right: 125px;
+    right: 25px;
     opacity: 0;
-    display: block;
-    transition: .5 ease-in-out;
+    transition: .5s ease-in-out;
     border-top: 2px solid var(--primary-color);
+}
+
+.nav li:hover .sub-menu-3 {
+    visibility: visible;
+    opacity: 1;
 }
 
 /*-------------------------------------------- section2 -------------------------------------------- */
@@ -615,3 +639,62 @@ ul {
     color: var(--primary-color);
 }
 
+
+.banner-bg-img {
+    background: url(../image/killer.jpg);
+    height: 52vh;
+    width: 100%;
+    top: 0;
+    z-index: -1;
+    background-repeat: no-repeat;
+    border-bottom: 3px solid var(--primary-color);
+}
+
+.banner-bg-img .team-img {
+    top: 23%;
+}
+
+.banner-bg-img .team-cnt {
+    padding: 170px 0 0 80px;
+}
+
+.banner-bg-img .team-cnt h1 {
+    font-style: 50px !important;
+}
+
+.count-bg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.counter-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.counter {
+    font-size: 60px;
+    margin-top: 10px;
+}
+
+.count-color {
+    color: var(--primary-color);
+}
+
+@media (max-width: 580px) {
+    body {
+        flex-direction: column;
+    }
+}
+
+.history-h2-color  {
+    color: var(--primary-color);
+}
+
+.history-data p {
+    color: var(--secondary-color);
+    width: 90%;
+}
