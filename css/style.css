@@ -926,10 +926,6 @@ ul {
     background-position: center;
     background-size: cover;
 }
-.clan-heading{
-    background-color: #282F3A;
-    padding: 20px;
-}
 .clan-heading img{
     width: 68%;
 }
@@ -1012,4 +1008,22 @@ b-list{
 }
 .empty-btn a {
     color: var(--bs-white);
+}
+
+
+
+/* -------------------------------------------------esport-subpage-game */
+
+.game-card {
+    background-color: var(--bg-color-3);
+}
+.clan-bg-1 {
+    background-image: url(../image/bg-menu\ 1.png);
+    height: 70vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.clan-bg-1 p {
+    color: var(--secondary-color);
 }
