@@ -859,6 +859,13 @@ ul {
 
 /* blog-subpage-news --------------------------------*/
 
+.banner-bg-img-1 {
+    background: url(../image/Rectangle\ 689.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+}
+
 .news-img{
     background-image: url(../image/post-41.jpg);
     height: 400px;
@@ -894,11 +901,75 @@ ul {
     height: 200px;
 }
 .pac-btn{
-    background-color: transparent;
-    border: 1px solid #fff;
+    background-color: #414958;
     text-decoration: none;
     font-size: 14px;
 }
 .star-c{
-    color: #f68b1f;
+    color:#f68b1f;
+}
+.pa-width{
+    width: 80%;
+    color: var(--secondary-color);
+}
+
+
+/* ------------------------------------------------Blog-subpage-team */
+
+.clan-team-card {
+    background-color: var(--bg-color-3);
+}
+
+.clan-bg{
+    background-image: url(../image/bg-menu\ 1.png);
+    height: 80vh;
+    background-position: center;
+    background-size: cover;
+}
+.clan-heading{
+    background-color: #282F3A;
+    padding: 20px;
+}
+.clan-heading img{
+    width: 68%;
+}
+
+
+
+/*--------------------------------------------- blog-subpage-bloglist */
+
+b-list{
+    background-color: #1A1C20;
+    padding: 20px;
+}
+.blist-btn{
+    background-color: #414958;
+    border: 1px solid #505a6d;
+}
+.b-para{
+    font-size: 14px;
+    color: #c4c4c4;
+    font-weight: light;
+}
+.blist-ti{
+    font-size: 14px;
+    color: #cecece;
+}
+/*-------------------------------- b-list end  ----------------------------------*/
+
+/*-------------------------------- leave start  ----------------------------------*/
+.leave-bg{
+    background-color: #13131F;
+}
+.leave-btn{
+    background-color: #EB3154;
+    border: 2px solid #EE526F;
+    font-size: 14px;
+}
+/*-------------------------------- leave end  ----------------------------------*/
+.sub-title-img{
+    background: url(../images/Rectangle\ 150.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
 }
