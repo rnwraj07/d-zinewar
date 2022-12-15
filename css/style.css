@@ -698,3 +698,8 @@ ul {
     color: var(--secondary-color);
     width: 90%;
 }
+
+.history-subcnt {
+    background-color: var(--bg-color-3);
+    padding: 29px 5px;
+}
