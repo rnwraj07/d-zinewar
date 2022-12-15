@@ -971,5 +971,45 @@ b-list{
     background: url(../images/Rectangle\ 150.png);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 50vh;
+    height: 50vh;
+}
+
+
+
+/* ---------------------------------------------------shop-subpage-cart */
+
+.banner-bg-img-2 {
+    background: url(../image/12\ 1.png);
+    background-size: cover;
+    height: 50vh;
+    background-repeat: no-repeat;
+} 
+
+.cart-data .line {
+    height: 2px;
+    background-color: var(--primary-color);
+}
+.empty-data {
+    background-color: var(--bg-color-3);
+}
+
+.empty-data .round-design {
+    background-color: transparent;
+    border-radius: 50px;
+    width: 40px;
+    color: #22A2B1;
+    border: 3px solid #22A2B1;
+}
+
+.empty-cnt {
+    color: #22A2B1;
+    padding-top: 8px;
+    margin-left: -40px;
+}
+.empty-btn {
+    background-color: var(--primary-color);
+    display: inline-block;
+}
+.empty-btn a {
+    color: var(--bs-white);
 }
