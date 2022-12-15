@@ -639,6 +639,79 @@ ul {
     color: var(--primary-color);
 }
 
+.footer-bg{
+    background: #0b0d14;
+}
+.footer-bg p{
+    color: var(--secondary-color);
+    width: 90%;
+}
+
+.fb-bg{
+    background-image: url(../image/2.png);
+}
+.in-bg{
+    background-image: url(../image/3.png);
+}
+.tw-bg{
+    background-image: url(../image/4.png);
+}
+.go-bg{
+    background-image: url(../image/5.png);
+}
+.footer-link li{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+    text-align: center;
+    line-height: 44px;
+}
+.userlink{
+    margin-right: 30px;
+}
+.userlink li{
+    list-style: none; padding: 0;
+    border-bottom: 1px solid #262626;
+}
+
+.userlink li > a:hover {
+    color: var(--primary-color);
+}
+
+.userlink li a{
+    color: var(--secondary-color);
+    text-decoration: none;
+    transition: .5s ease-in-out;
+    line-height: 44px;
+}
+.email{
+    display: block;
+    padding: 10px 15px;
+    background: transparent;
+    border: 1px solid #262626;
+    font-size: 16px;
+    color: #fff;
+}
+.Message{
+    display: block;
+    padding: 35px 15px;
+    background: transparent;
+    border: 1px solid #262626;
+    font-size: 16px;
+    color: #fff;
+}
+.fo-btn{
+    padding: 14px 25px;
+    background: #f68b1f;
+    display: inline-block;
+    border:none;
+    line-height: 17px;
+    color:#fff;
+}
+
+
+/*---------------------------------------------------- page-subpage-killerwale */
 
 .banner-bg-img {
     background: url(../image/killer.jpg);
@@ -702,4 +775,12 @@ ul {
 .history-subcnt {
     background-color: var(--bg-color-3);
     padding: 29px 5px;
+}
+
+.killer-bg-img {
+    background: url(../image/killerteam.jpg);
+    height: 70vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
