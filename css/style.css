@@ -857,3 +857,48 @@ ul {
 
 
 
+/* blog-subpage-news --------------------------------*/
+
+.news-img{
+    background-image: url(../image/post-41.jpg);
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+}
+.news-btn{
+    background-color: #414958;
+    border: 1px solid #505a6d;
+}
+.news-img1{
+    background-image: url(../image/post-31.jpg);
+    height: 250px;
+    width: 100%;
+    background-size: cover;
+}
+.news-img2{
+    background-image: url(../image/post-51.jpg);
+    height: 250px;
+    width: 100%;
+    background-size: cover;
+}
+
+.pakage-game{
+    background-color: #13131F;
+}
+.package-post{
+    overflow: hidden;
+    background: #282F3A;
+}
+.package-img{
+    overflow: hidden;
+    height: 200px;
+}
+.pac-btn{
+    background-color: transparent;
+    border: 1px solid #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+.star-c{
+    color: #f68b1f;
+}
