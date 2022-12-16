@@ -8,12 +8,16 @@
   <link rel="icon" href="image/logo-1.png">
   <title>Home-Bloodmoon</title>
   <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/preloader.css">
   <link rel="stylesheet" href="css/fonts.css">
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
+<body class="loader">
+    <div class="preloader">
+    </div>
+
   <header>
     <div class="menu position-relative">
       <div class="container">
@@ -146,8 +150,6 @@
       </div>
     </div>
   </header>
-
-
   <section>
     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-indicators">
@@ -283,35 +285,93 @@
     </div>
   </section>
   <section>
-    <div class="clan-match py-5">
+    <div class="py-5">
       <div class="container">
-        <h4 class="fs-5 fw-bold text-center mt-4">COME THE END OF THE WORLD</h4>
-        <h2 class="mt-1 fs-1 text-center mb-4">SEE WHAT LIES BEYOND</h2>
-        <div class="row">
-          <div class="col-7">
-            <div class="heading-box ps-4 p-3 align-items-center">
-              <h6>Clan Match News</h6>
-            </div>
-          </div>
-          <div class="col-5">
-            <div class="heading-box ps-4 p-3 align-items-center">
-              <h6>Clan Match News</h6>
-            </div>
-          </div>
+        <div class="title">
+          <h4 class="fs-5 fw-bold text-center mt-4">COME THE END OF THE WORLD</h4>
+          <h2 class="mt-1 fs-1 text-center mb-4">SEE WHAT LIES BEYOND</h2>
         </div>
-
         <div class="row">
-          <div class="col-7">
-            <div class="team-score p-5 mt-3">
+          <div class="col-8">
+            <div class="heading-box ps-4 p-3 mb-3 align-items-center">
+              <h6>Clan Match News</h6>
+            </div>
+            <div class="clan-2 p-5 text-center">
+              <div class="row">
+                <div class="col-4">
+                  <img src="image/Ellipse 1.png" alt="">
+                  <h5 class="mt-3">Game Adict</h5>
+                </div>
+                <div class="col-4 fs-2 position-relative">
+                  <div class="loader3 position-absolute">
+                    <span></span>
+                    <span></span>
+                  </div>
+                  <div class="vs-fire position-absolute text-center">
+                    <p class="mt-1 lh-2 fs-5 m-0">vs</p>
+                  </div>
+                </div>
+                <div class="col-4">
+                  <img src="image/Ellipse 2.png" alt="">
+                  <h5 class="mt-3">Game Adict</h5>
+                </div>
+                <a href="#" class=""><button
+                    class="text-uppercase part-btn text-white px-5 py-3">Participant</button></a>
+              </div>
             </div>
           </div>
-          <div class="col-5">
-            <div class="recent-team p-5 mt-3">
-
+          <div class="col-4">
+            <div class="clan-1">
+              <div class="heading-box mb-3 ps-4 p-3 align-items-center">
+                <h6>Clan Match News</h6>
+              </div>
+            </div>
+            <div class="latest-game">
+              <a href="#">
+                <img src="image/Ellipse 7.png" alt="">
+              </a>
+              <span class="text-white fw-bold">VS</span>
+              <a href="#">
+                <img src="image/Ellipse 8.png" alt="">
+              </a>
+              <span>=</span>
+              <div class="clan-time text-center">
+                <p class="time mb-0">10:12</p>
+                <p class="date">21 Aug 2018</p>
+              </div>
+            </div>
+            <div class="latest-game">
+              <a href="#">
+                <img src="image/Ellipse 9.png" alt="">
+              </a>
+              <span class="text-white fw-bold">VS</span>
+              <a href="#">
+                <img src="image/Ellipse 10.png" alt="">
+              </a>
+              <span>=</span>
+              <div class="clan-time text-center">
+                <p class="time mb-0">10:12</p>
+                <p class="date">21 Aug 2018</p>
+              </div>
+            </div>
+            <div class="latest-game latest-over">
+              <a href="#">
+                <img src="image/Ellipse 11.png" alt="">
+              </a>
+              <span class="text-white fw-bold">VS</span>
+              <a href="#">
+                <img src="image/Ellipse 12.png" alt="">
+              </a>
+              <span>=</span>
+              <div class="clan-time text-center">
+                <p class="time mb-0">10:12</p>
+                <p class="date">21 Aug 2018</p>
+              </div>
             </div>
           </div>
         </div>
       </div>
+    </div>
   </section>
   <section>
     <div class="focus-bg py-5">
@@ -506,12 +566,18 @@
             </div>
             <div class="game-cnt">
               <p class="text-center mt-4 fw-bold fs-6">Xbox One Live Streaming</p>
-              <span class="icon row">
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i></span>
+              <div class="d-flex justify-content-between mx-2">
+                <span class="icon">
+                  <i class="fa-solid fa-star star-c"></i>
+                  <i class="fa-solid fa-star star-c"></i>
+                  <i class="fa-solid fa-star star-c"></i>
+                  <i class="fa-solid fa-star star-c"></i>
+                  <i class="fa-solid fa-star"></i></span>
+                <span>$26.00</span>
+              </div>
+              <div class="text-center">
+                <a href="#"><button class="py-2 px-3 game-btn text-white rounded-3 mt-3">BUY NOW</button></a>
+              </div>
             </div>
           </div>
           <div class="col-3">
@@ -520,12 +586,18 @@
             </div>
             <div class="game-cnt">
               <p class="text-center mt-4 fw-bold fs-6">Xbox One Live Streaming</p>
-              <span class="icon row">
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i></span>
+              <div class="d-flex justify-content-between mx-2">
+                <span class="icon">
+                  <i class="fa-solid fa-star star-c"></i>
+                  <i class="fa-solid fa-star star-c"></i>
+                  <i class="fa-solid fa-star star-c"></i>
+                  <i class="fa-solid fa-star star-c"></i>
+                  <i class="fa-solid fa-star star-c"></i></span>
+                <span>$26.00</span>
+              </div>
+              <div class="text-center">
+                <a href="#"><button class="py-2 px-3 game-btn text-white rounded-3 mt-3">BUY NOW</button></a>
+              </div>
             </div>
           </div>
           <div class="col-3">
@@ -534,12 +606,18 @@
             </div>
             <div class="game-cnt">
               <p class="text-center mt-4 fw-bold fs-6">Xbox One Live Streaming</p>
-              <span class="icon row">
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i></span>
+              <div class="d-flex justify-content-between mx-2">
+                <span class="icon">
+                  <i class="fa-solid fa-star star-c"></i>
+                  <i class="fa-solid fa-star star-c"></i>
+                  <i class="fa-solid fa-star star-c"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i></span>
+                <span>$26.00</span>
+              </div>
+              <div class="text-center">
+                <a href="#"><button class="py-2 px-3 game-btn text-white rounded-3 mt-3">BUY NOW</button></a>
+              </div>
             </div>
           </div>
           <div class="col-3">
@@ -548,15 +626,18 @@
             </div>
             <div class="game-cnt">
               <p class="text-center mt-4 fw-bold fs-6">Xbox One Live Streaming</p>
-              <span class="icon">
-                <div class="row">
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                </div>
-              </span>
+              <div class="d-flex justify-content-between mx-2">
+                <span class="icon">
+                  <i class="fa-solid fa-star star-c"></i>
+                  <i class="fa-solid fa-star star-c"></i>
+                  <i class="fa-solid fa-star star-c"></i>
+                  <i class="fa-solid fa-star star-c"></i>
+                  <i class="fa-solid fa-star"></i></span>
+                <span>$26.00</span>
+              </div>
+              <div class="text-center">
+                <a href="#"><button class="py-2 px-3 game-btn text-white rounded-3 mt-3">BUY NOW</button></a>
+              </div>
             </div>
           </div>
         </div>
@@ -660,6 +741,32 @@
   </footer>
 
 
+
+
 </body>
+<script></script>
+<script src="js/jquery-3.6.0.min.js"></script>
 <script src="js/bootstrap.bundle.min.js"></script>
+<script type="text/javascript">
+  $(document).ready(function(){
+    $(window).on("load",function(){
+      $(".preloader").delay(1000).fadeOut("slow",function(){
+        $("body").removeClass("loader");
+      });
+    });
+  });
+  let preloaderElem = document.querySelector('.preloader');
+  let x = 100;
+  let loading = setInterval(() => {
+      preloaderElem.style.backgroundPosition = `${x}% 0%`;
+      x -= 4.54;
+      if (x <= 0) {
+          clearInterval(loading)
+      }
+  }, 60)
+
+
+</script>
+
+
 </html>

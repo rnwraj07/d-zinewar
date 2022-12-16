@@ -431,6 +431,15 @@ ul {
     cursor: pointer;
 }
 
+.game-btn {
+    background-color: transparent;
+    border: 1px solid #fff;
+}
+
+.star-c {
+    color: var(--primary-color);
+}
+
 .img1 {
     background-image: url(../image/13.jpg);
     height: 247px;
@@ -501,6 +510,98 @@ ul {
     font-size: 18px;
     line-height: 28px;
     color: #dedede;
+}
+
+
+.clan-2 {
+    background: #282F3A;
+}
+
+.part-btn {
+    background-color: transparent;
+    border: 1px solid #fff;
+}
+
+.latest-game {
+    padding: 18px 20px;
+    border-bottom: 2px solid #000000;
+    background-color: #282F3A;
+}
+
+.latest-over {
+    border: none;
+}
+
+.latest-game span {
+    font-size: 22px;
+    font-weight: 600;
+    margin: 0 15px;
+    display: inline-block;
+}
+
+.clan-time {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.vs-fire {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50% !important;
+    background-color: #F68B1F;
+    width: 40px;
+    height: 40px;
+}
+
+.loader3 {
+    top: 30%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    padding: 0px;
+}
+
+.loader3 span {
+    position: absolute;
+    display: inline-block;
+    width: 130px;
+    height: 130px;
+    border-radius: 100%;
+    background-color: #F68B1F;
+    -webkit-animation: loader3 1.5s linear infinite;
+    animation: loader3 1.5s linear infinite;
+}
+
+.loader3 span:last-child {
+    animation-delay: -0.9s;
+    -webkit-animation-delay: -0.9s;
+}
+
+@keyframes loader3 {
+    0% {
+        transform: scale(0, 0);
+        opacity: 0.8;
+    }
+
+    100% {
+        transform: scale(1, 1);
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes loader3 {
+    0% {
+        -webkit-transform: scale(0, 0);
+        opacity: 0.8;
+    }
+
+    100% {
+        -webkit-transform: scale(1, 1);
+        opacity: 0;
+    }
 }
 
 .product {
@@ -639,27 +740,32 @@ ul {
     color: var(--primary-color);
 }
 
-.footer-bg{
+.footer-bg {
     background: #0b0d14;
 }
-.footer-bg p{
+
+.footer-bg p {
     color: var(--secondary-color);
     width: 90%;
 }
 
-.fb-bg{
+.fb-bg {
     background-image: url(../image/2.png);
 }
-.in-bg{
+
+.in-bg {
     background-image: url(../image/3.png);
 }
-.tw-bg{
+
+.tw-bg {
     background-image: url(../image/4.png);
 }
-.go-bg{
+
+.go-bg {
     background-image: url(../image/5.png);
 }
-.footer-link li{
+
+.footer-link li {
     display: inline-block;
     height: 40px;
     width: 40px;
@@ -667,25 +773,29 @@ ul {
     text-align: center;
     line-height: 44px;
 }
-.userlink{
+
+.userlink {
     margin-right: 30px;
 }
-.userlink li{
-    list-style: none; padding: 0;
+
+.userlink li {
+    list-style: none;
+    padding: 0;
     border-bottom: 1px solid #262626;
 }
 
-.userlink li > a:hover {
+.userlink li>a:hover {
     color: var(--primary-color);
 }
 
-.userlink li a{
+.userlink li a {
     color: var(--secondary-color);
     text-decoration: none;
     transition: .5s ease-in-out;
     line-height: 44px;
 }
-.email{
+
+.email {
     display: block;
     padding: 10px 15px;
     background: transparent;
@@ -693,7 +803,8 @@ ul {
     font-size: 16px;
     color: #fff;
 }
-.Message{
+
+.Message {
     display: block;
     padding: 35px 15px;
     background: transparent;
@@ -701,13 +812,14 @@ ul {
     font-size: 16px;
     color: #fff;
 }
-.fo-btn{
+
+.fo-btn {
     padding: 14px 25px;
     background: #f68b1f;
     display: inline-block;
-    border:none;
+    border: none;
     line-height: 17px;
-    color:#fff;
+    color: #fff;
 }
 
 
@@ -771,7 +883,7 @@ ul {
     }
 }
 
-.history-h2-color  {
+.history-h2-color {
     color: var(--primary-color);
 }
 
@@ -799,18 +911,18 @@ ul {
 
 .player-data {
     width: 100%;
-    padding: 10px ;
+    padding: 10px;
     background-color: var(--bg-color-3);
     box-sizing: border-box;
     position: relative;
 }
 
-.player-img img{
-    width: 100%;   
+.player-img img {
+    width: 100%;
 }
 
-.player-img-1 img{
-    width: 100%; 
+.player-img-1 img {
+    width: 100%;
 }
 
 .player-cnt p {
@@ -851,6 +963,7 @@ ul {
 .player-data .player-social a i {
     color: var(--bs-white);
 }
+
 .player-data:hover .player-social {
     transform: translate(-50%) scale(1);
 }
@@ -866,49 +979,57 @@ ul {
     height: 50vh;
 }
 
-.news-img{
+.news-img {
     background-image: url(../image/post-41.jpg);
     height: 400px;
     background-position: center;
     background-size: cover;
 }
-.news-btn{
+
+.news-btn {
     background-color: #414958;
     border: 1px solid #505a6d;
 }
-.news-img1{
+
+.news-img1 {
     background-image: url(../image/post-31.jpg);
     height: 250px;
     width: 100%;
     background-size: cover;
 }
-.news-img2{
+
+.news-img2 {
     background-image: url(../image/post-51.jpg);
     height: 250px;
     width: 100%;
     background-size: cover;
 }
 
-.pakage-game{
+.pakage-game {
     background-color: #13131F;
 }
-.package-post{
+
+.package-post {
     overflow: hidden;
     background: #282F3A;
 }
-.package-img{
+
+.package-img {
     overflow: hidden;
     height: 200px;
 }
-.pac-btn{
+
+.pac-btn {
     background-color: #414958;
     text-decoration: none;
     font-size: 14px;
 }
-.star-c{
-    color:#f68b1f;
+
+.star-c {
+    color: #f68b1f;
 }
-.pa-width{
+
+.pa-width {
     width: 80%;
     color: var(--secondary-color);
 }
@@ -920,13 +1041,14 @@ ul {
     background-color: var(--bg-color-3);
 }
 
-.clan-bg{
+.clan-bg {
     background-image: url(../image/bg-menu\ 1.png);
     height: 80vh;
     background-position: center;
     background-size: cover;
 }
-.clan-heading img{
+
+.clan-heading img {
     width: 68%;
 }
 
@@ -934,36 +1056,42 @@ ul {
 
 /*--------------------------------------------- blog-subpage-bloglist */
 
-b-list{
+b-list {
     background-color: #1A1C20;
     padding: 20px;
 }
-.blist-btn{
+
+.blist-btn {
     background-color: #414958;
     border: 1px solid #505a6d;
 }
-.b-para{
+
+.b-para {
     font-size: 14px;
     color: #c4c4c4;
     font-weight: light;
 }
-.blist-ti{
+
+.blist-ti {
     font-size: 14px;
     color: #cecece;
 }
+
 /*-------------------------------- b-list end  ----------------------------------*/
 
 /*-------------------------------- leave start  ----------------------------------*/
-.leave-bg{
+.leave-bg {
     background-color: #13131F;
 }
-.leave-btn{
+
+.leave-btn {
     background-color: #EB3154;
     border: 2px solid #EE526F;
     font-size: 14px;
 }
+
 /*-------------------------------- leave end  ----------------------------------*/
-.sub-title-img{
+.sub-title-img {
     background: url(../images/Rectangle\ 150.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -979,12 +1107,13 @@ b-list{
     background-size: cover;
     height: 50vh;
     background-repeat: no-repeat;
-} 
+}
 
 .cart-data .line {
     height: 2px;
     background-color: var(--primary-color);
 }
+
 .empty-data {
     background-color: var(--bg-color-3);
 }
@@ -1002,10 +1131,12 @@ b-list{
     padding-top: 8px;
     margin-left: -40px;
 }
+
 .empty-btn {
     background-color: var(--primary-color);
     display: inline-block;
 }
+
 .empty-btn a {
     color: var(--bs-white);
 }
@@ -1017,9 +1148,10 @@ b-list{
 .game-card {
     background-color: var(--bg-color-3);
 }
+
 .clan-bg-1 {
     background-image: url(../image/bg-menu\ 1.png);
-    height: 70vh;
+    height: 75vh;
     background-position: center;
     background-size: cover;
 }
@@ -1027,3 +1159,71 @@ b-list{
 .clan-bg-1 p {
     color: var(--secondary-color);
 }
+
+/* -------------------------------------------------esport-subpage-matches */
+
+
+.match-data-bg {
+    background-color: var(--bg-color-3);
+}
+
+.match-data-bg p {
+    color: var(--secondary-color);
+}
+
+.match-data-bg .team-img {
+    width: 100px;
+    background-color: var(--bg-color-1);
+    height: 100px;
+}
+
+.match-data-bg .team-img img {
+    width: 100%;
+}
+
+.match-data-bg .vs-cnt h5 {
+    background-color: var(--bg-color-1);
+}
+
+.match-data-bg .team-name h4 {
+    color: var(--bs-white);
+}
+
+.img-height img {
+    height: 35vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.loader {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+
+.preloader{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: transparent;
+    background-image: url(https://html.nkdev.info/godlike/assets/images/preloader-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 100000;
+    background-position: 100% 0%;
+  }
