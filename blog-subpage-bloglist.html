@@ -13,7 +13,9 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
+<body class="loader">
+
+  <div class="preloader"></div>
 
   <header>
     <div class="menu position-relative">
@@ -101,13 +103,13 @@
                 <div class="sub-menu-1 position-absolute">
                   <ul>
                     <li class="px-4">
-                      <a href="#">Teams</a>
+                      <a href="esport-subpage-team.html">Teams</a>
                     </li>
                     <li class="mt-2 px-4">
-                      <a href="#">matches</a>
+                      <a href="esport-subpage-maches.html">matches</a>
                     </li>
                     <li class="mt-2 px-4">
-                      <a href="#">game</a>
+                      <a href="esport-subpage-game.html">game</a>
                     </li>
                   </ul>
                 </div>
@@ -120,7 +122,7 @@
                       <a href="blog-subpage-news.html">News</a>
                     </li>
                     <li class="mt-2 px-4 mb-1">
-                      <a href="#">Blog list</a>
+                      <a href="blog-subpage-bloglist.html">Blog list</a>
                     </li>
                   </ul>
                 </div>
@@ -130,13 +132,13 @@
                 <div class="sub-menu-3 position-absolute">
                   <ul>
                     <li class="px-4">
-                      <a href="#">Product</a>
+                      <a href="">Product</a>
                     </li>
                     <li class="mt-2 px-4">
                       <a href="#">Catalog</a>
                     </li>
                     <li class="mt-2 px-4">
-                      <a href="#">Cart</a>
+                      <a href="shop-subpage-cart.html">Cart</a>
                     </li>
                   </ul>
                 </div>
@@ -150,15 +152,111 @@
 
   <section>
     <div class="banner-bg-img-1">
-        <div class="container">
-            <div class="banner-content text-center py-5">
-                <h1 class="fw-bold mt-5">BLOG LIST</h1>
-                <h4>Blog</h4>
-                <img src="image/s1.png" alt="">
-            </div>
+      <div class="container">
+        <div class="banner-content text-center py-5">
+          <h1 class="fw-bold mt-5">BLOG LIST</h1>
+          <h4>Blog</h4>
+          <img src="image/s1.png" alt="">
         </div>
+      </div>
     </div>
-</section>
+  </section>
+
+  <section>
+    <div class="blist-bg py-5">
+      <div class="container">
+        <div class="title">
+          <h3 class="sub-title">COMMENTS</h3>
+          <h2 class="title1 fs-">see comments</h2>
+        </div>
+        <div class="row">
+          <div class="col-4">
+            <div class="b-list p-4 rounded-1">
+              <div class="d-flex align-items-center">
+                <img src="image/Ellipse 21.png" alt="" class="rounded-circle w-25">
+                <span class="ms-3 blist-ti">by Fellan in September 6, 2019</span>
+              </div>
+              <p class="my-4 b-para">This sounded nonsense to Alice, so she said nothing, but set off at once toward the
+                Red Queen. To her surprise, she lost sight of her in a moment, and found herself walking in at the
+                front-door again.</p>
+              <div class="text-center">
+                <a href="#" class=""><button class="blist-btn text-white py-1 px-4">Reply</button></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="b-list p-4 rounded-1">
+              <div class="d-flex align-items-center">
+                <img src="image/Ellipse 22.png" alt="" class="rounded-circle w-25">
+                <span class="ms-3 blist-ti">by Craager in September 6, 2019</span>
+              </div>
+              <p class="my-4 b-para">This sounded nonsense to Alice, so she said nothing, but set off at once toward the
+                Red Queen. To her surprise, she lost sight of her in a moment, and found herself walking in at the
+                front-door again.</p>
+              <div class="text-center">
+                <a href="#" class=""><button class="blist-btn text-white py-1 px-4">Reply</button></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="b-list p-4 rounded-1">
+              <div class="d-flex align-items-center">
+                <img src="image/Ellipse 21.png" alt="" class="rounded-circle w-25">
+                <span class="ms-3 blist-ti">by Fellan in September 6, 2019</span>
+              </div>
+              <p class="my-4 b-para">This sounded nonsense to Alice, so she said nothing, but set off at once toward the
+                Red Queen. To her surprise, she lost sight of her in a moment, and found herself walking in at the
+                front-door again.</p>
+              <div class="text-center">
+                <a href="#" class=""><button class="blist-btn text-white py-1 px-4">Reply</button></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="leave-bg py-5">
+      <div class="container">
+        <div class="title">
+          <h3 class="sub-title">COMMENTS</h3>
+          <h2 class="title1 fs-">Leave a comments</h2>
+        </div>
+        <form action="">
+          <div class="d-flex">
+            <input type="text" placeholder="Email" class="email rounded-1 w-100 mb-3 px-3 py-2 me-2">
+            <input type="text" placeholder="Email" class="email rounded-1 w-100 mb-3 px-3 py-2 me-2">
+            <input type="text" placeholder="Email" class="email rounded-1 w-100 mb-3 px-3 py-2">
+          </div>
+          <textarea class="form-control email mb-2" id="exampleFormControlTextarea1" rows="3"
+            placeholder="Comment*"></textarea>
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Save my name, email, and website in this browser for
+              the next time I comment.</label>
+          </div>
+          <a href="#"><button class="leave-btn text-white py-1 px-3 rounded-1 mt-2">Post Comment</button></a>
+        </form>
+      </div>
+    </div>
+  </section>
+  <section class="py-5">
+    <div class="container">
+      <div class="title">
+        <h3 class="sub-title">FEED</h3>
+        <h2 class="title1 fs-">See Game Tailor</h2>
+      </div>
+      <a href="https://www.youtube.com/">
+        <div class="sub-title-img rounded-3 position-relative">
+          <div class="sub-title-icon position-absolute top-50 start-50 translate-middle">
+            <i class="fa-regular fa-circle-play text-white fs-1"></i>
+          </div>
+        </div>
+      </a>
+    </div>
+  </section>
+
 
   <footer>
     <div class="footer-bg py-5">
@@ -208,6 +306,25 @@
   </footer>
 
 </body>
+<script src="js/jquery-3.6.0.min.js"></script>
 <script src="js/bootstrap.bundle.min.js"></script>
+<script type="text/javascript">
+  $(document).ready(function () {
+    $(window).on("load", function () {
+      $(".preloader").delay(1000).fadeOut("slow", function () {
+        $("body").removeClass("loader");
+      });
+    });
+  });
+  let preloaderElem = document.querySelector('.preloader');
+  let x = 100;
+  let loading = setInterval(() => {
+    preloaderElem.style.backgroundPosition = `${x}% 0%`;
+    x -= 4.54;
+    if (x <= 0) {
+      clearInterval(loading)
+    }
+  }, 60)
+</script>
 
 </html>
