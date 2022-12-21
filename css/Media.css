@@ -1,0 +1,40 @@
+@media (max-width:1400px){
+
+}
+@media (max-width:1200){
+  .tricks .extra-clss {
+    display: none;
+  }
+}
+@media (max-width:992px){
+    .navbar-togglar{
+        display: block;
+    }
+    nav ul{
+        flex-direction: column;
+    }
+    nav{
+        position: absolute; background-color: #fff; left:-200px; bottom: 0; top: 76px; width:200px; transition: all.5s;
+    }
+    nav ul li{
+        padding: 15px;
+    }
+    header.fixed nav{
+        left: 0;
+    }
+    .blog-post{
+        margin-bottom: 20px;
+    }
+    .blist-bg .b-list{
+        margin-bottom: 20px;
+    }
+    .package-post{
+        margin-bottom: 20px;
+    }
+}
+@media (max-width:768px){
+
+}
+@media (max-width:576px){
+
+}

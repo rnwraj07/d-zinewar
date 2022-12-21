@@ -13,7 +13,15 @@ body {
     font-family: "poppins";
     color: var(--bs-white);
 }
-
+.navbar-togglar button{
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    font-size: 30px;
+}
+.navbar-togglar{
+    display: none;
+}
 .logo {
     width: 10%;
 }
@@ -1056,7 +1064,7 @@ ul {
 
 /*--------------------------------------------- blog-subpage-bloglist */
 
-b-list {
+.b-list {
     background-color: #1A1C20;
     padding: 20px;
 }
@@ -1233,6 +1241,54 @@ b-list {
 
 
 
+/* --------------------------------------------------------------shop-subpage-catlog */
+
+
+
+.banner-bg-img{
+    background: url(../image/Rectangle\ 184.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40vh
+}
+.banner-content h4{
+    color: #f68b1f;
+}
+
+.cata{
+    list-style: none;
+}
+.cat-img{
+    width: 200px;
+    height: 250px;
+}
+.cata-p{
+    color: #cecece;
+    line-height: 28px;
+    width: 90%;
+    font-size: 14px;
+}
+.cata-content{
+    margin-left: 30px;
+}
+
+.lea-btn{
+    color: #262626;
+    font-size: 14px;
+ }
+ .action-bg{
+    background-image: url(../image/Rectangle\ 184.png);
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+    position: relative;
+}
+.action-content{
+    background-color: #1A1C20;
+    width: 30%;
+    padding: 40px;
+    left: 81%;
+}
 
 
 
