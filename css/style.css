@@ -13,15 +13,11 @@ body {
     font-family: "poppins";
     color: var(--bs-white);
 }
-.navbar-togglar button{
-    border: none;
-    background-color: transparent;
-    color: #fff;
-    font-size: 30px;
-}
-.navbar-togglar{
+
+.navbar-togglar {
     display: none;
 }
+
 .logo {
     width: 10%;
 }
@@ -116,7 +112,7 @@ ul {
 
 /*-------------------------------------------- header -------------------------------------------- */
 
-/* --------------------------------sub-menu-page */
+/* ------------------------------------------------------sub-menu-page */
 
 .sub-menu {
     z-index: 1;
@@ -169,7 +165,7 @@ ul {
     color: var(--primary-color);
 }
 
-/* ------------------------------sub-menu-esport */
+/* ---------------------------------------------------------sub-menu-esport */
 
 .sub-menu-1 {
     z-index: 1;
@@ -197,7 +193,7 @@ ul {
     color: var(--primary-color) !important;
 }
 
-/* ------------------------------sub-menu-blog */
+/* -----------------------------------------------------------------sub-menu-blog */
 
 .sub-menu-2 {
     z-index: 1;
@@ -221,7 +217,7 @@ ul {
     color: var(--primary-color) !important;
 }
 
-/* ------------------------------sub-menu-shop */
+/* ------------------------------------------------------------sub-menu-shop */
 
 .sub-menu-3 {
     z-index: 1;
@@ -394,6 +390,9 @@ ul {
     color: #f68b1f;
 }
 
+/*-------------------------------------------- section3 -------------------------------------------- */
+
+
 .tips-content h3 {
     font-weight: 600;
     line-height: 35px;
@@ -420,7 +419,6 @@ ul {
     height: 0;
     overflow: hidden;
     max-width: 80%;
-    /* background-color: #191a1c; */
     cursor: pointer;
 }
 
@@ -520,6 +518,7 @@ ul {
     color: #dedede;
 }
 
+/*-------------------------------------------- section4 -------------------------------------------- */
 
 .clan-2 {
     background: #282F3A;
@@ -612,6 +611,8 @@ ul {
     }
 }
 
+/*-------------------------------------------- section5 -------------------------------------------- */
+
 .product {
     background-color: var(--bg-color-1);
 }
@@ -682,6 +683,8 @@ ul {
     color: var(--primary-color);
 }
 
+/*-------------------------------------------- section6 -------------------------------------------- */
+
 .game .game-box {
     background-color: #1A1C20;
     transition: .7s ease-in-out;
@@ -702,6 +705,7 @@ ul {
     color: var(--primary-color);
 }
 
+/*-------------------------------------------- section8 -------------------------------------------- */
 
 .home-work {
     background-color: var(--bg-color-1);
@@ -829,7 +833,6 @@ ul {
     line-height: 17px;
     color: #fff;
 }
-
 
 /*---------------------------------------------------- page-subpage-killerwale */
 
@@ -976,9 +979,7 @@ ul {
     transform: translate(-50%) scale(1);
 }
 
-
-
-/* blog-subpage-news --------------------------------*/
+/*------------------------------------------------------------------- blog-subpage-news --------------------------------*/
 
 .banner-bg-img-1 {
     background: url(../image/Rectangle\ 689.png);
@@ -1042,8 +1043,7 @@ ul {
     color: var(--secondary-color);
 }
 
-
-/* ------------------------------------------------Blog-subpage-team */
+/* ----------------------------------------------------------------Blog-subpage-team */
 
 .clan-team-card {
     background-color: var(--bg-color-3);
@@ -1060,9 +1060,7 @@ ul {
     width: 68%;
 }
 
-
-
-/*--------------------------------------------- blog-subpage-bloglist */
+/*----------------------------------------------------------- blog-subpage-bloglist */
 
 .b-list {
     background-color: #1A1C20;
@@ -1092,12 +1090,6 @@ ul {
     background-color: #13131F;
 }
 
-.leave-btn {
-    background-color: #EB3154;
-    border: 2px solid #EE526F;
-    font-size: 14px;
-}
-
 /*-------------------------------- leave end  ----------------------------------*/
 .sub-title-img {
     background: url(../images/Rectangle\ 150.png);
@@ -1106,9 +1098,7 @@ ul {
     height: 50vh;
 }
 
-
-
-/* ---------------------------------------------------shop-subpage-cart */
+/* -----------------------------------------------------------------------shop-subpage-cart */
 
 .banner-bg-img-2 {
     background: url(../image/12\ 1.png);
@@ -1149,9 +1139,7 @@ ul {
     color: var(--bs-white);
 }
 
-
-
-/* -------------------------------------------------esport-subpage-game */
+/* -----------------------------------------------------------------esport-subpage-game */
 
 .game-card {
     background-color: var(--bg-color-3);
@@ -1168,8 +1156,7 @@ ul {
     color: var(--secondary-color);
 }
 
-/* -------------------------------------------------esport-subpage-matches */
-
+/* ----------------------------------------------------------------------esport-subpage-matches */
 
 .match-data-bg {
     background-color: var(--bg-color-3);
@@ -1201,100 +1188,90 @@ ul {
     height: 35vh;
 }
 
-
-.b-list{
+.b-list {
     background-color: #1A1C20;
     padding: 20px;
 }
-.blist-btn{
+
+.blist-btn {
     background-color: #414958;
     border: 1px solid #505a6d;
 }
-.b-para{
+
+.b-para {
     font-size: 14px;
     color: #c4c4c4;
     font-weight: light;
 }
-.blist-ti{
+
+.blist-ti {
     font-size: 14px;
     color: #cecece;
 }
+
 /*-------------------------------- b-list end  ----------------------------------*/
 
 /*-------------------------------- leave start  ----------------------------------*/
-.leave-bg{
+.leave-bg {
     background-color: #13131F;
 }
-.leave-btn{
+
+.leave-btn {
     background-color: #EB3154;
     border: 2px solid #EE526F;
     font-size: 14px;
 }
+
 /*-------------------------------- leave end  ----------------------------------*/
-.sub-title-img{
+.sub-title-img {
     background: url(../image/Rectangle\ 150.png);
     background-size: cover;
     background-repeat: no-repeat;
     height: 50vh;
 }
 
-
-
-
 /* --------------------------------------------------------------shop-subpage-catlog */
-
-
-
-.banner-bg-img{
-    background: url(../image/Rectangle\ 184.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 40vh
-}
-.banner-content h4{
-    color: #f68b1f;
-}
-
-.cata{
+.cata {
     list-style: none;
 }
-.cat-img{
+
+.cat-img {
     width: 200px;
     height: 250px;
 }
-.cata-p{
+
+.cata-p {
     color: #cecece;
     line-height: 28px;
     width: 90%;
     font-size: 14px;
 }
-.cata-content{
+
+.cata-content {
     margin-left: 30px;
 }
 
-.lea-btn{
+.lea-btn {
     color: #262626;
     font-size: 14px;
- }
- .action-bg{
+}
+
+.action-bg {
     background-image: url(../image/Rectangle\ 184.png);
     background-position: center;
     background-size: cover;
     height: 50vh;
     position: relative;
 }
-.action-content{
+
+.action-content {
     background-color: #1A1C20;
     width: 30%;
-    padding: 40px;
+    padding: 30px;
     left: 81%;
 }
 
-
-
-
-
-
+/* ----------------------------------------------------------------------------loader */
 .loader {
     width: 100%;
     height: 100%;
@@ -1305,9 +1282,7 @@ ul {
     bottom: 0;
 }
 
-
-
-.preloader{
+.preloader {
     position: absolute;
     width: 100%;
     height: 100vh;
@@ -1317,57 +1292,172 @@ ul {
     background-repeat: no-repeat;
     z-index: 100000;
     background-position: 100% 0%;
-  }
+}
 
+/*------------------------------------------------------------------- banner button css */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  .bg-btn {
-    background-color: transparent;
-  }
-
-  .btn-liquid {
-    display: inline-block;
+.button {
+    -webkit-tap-highlight-color: transparent;
+    border: 0;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    color: black;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 10px;
+    outline: none;
+    overflow: hidden;
+    padding: 10px 30px;
     position: relative;
-    width: 240px;
-    height: 60px;
-    border-radius: 27px;
-  
-    color: #fff;
-    font: 700 14px/60px "Droid Sans", sans-serif;
-    letter-spacing: 0.05em;
-    text-align: center;
-    text-decoration: none;
-    text-transform: uppercase;
-  }
-  
-  .btn-liquid .inner {
-    position: relative;
-    z-index: 2;
-  }
-  
-  .btn-liquid canvas {
+    width: 150px;
+}
+
+.button--white {
+    color: white;
+}
+
+.pattern {
+    background: var(--primary-color);
+    height: 100%;
+    left: 0;
     position: absolute;
-    top: -50px;
-    right: -50px;
-    bottom: -50px;
-    left: -50px;
-    z-index: 1;
-  }
+    top: 0;
+    width: 100%;
+}
+
+.bg1 {
+    background: url(../image/download.png);
+}
+
+.inner {
+    height: 100px;
+    width: 400px;
+}
+
+.text {
+    position: relative;
+    opacity: .7;
+}
+
+.target {
+    transform: translate(var(--x), var(--y));
+}
+
+.button:active .target {
+    opacity: 0.7;
+    transition: opacity 100ms;
+}
+
+/* ------------------------------------------------------------------------------button css hover */
+.buttonfx {
+    color: var(--bs-white);
+    outline: none;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #eee;
+    letter-spacing: 0.0625em;
+    padding: 8px 10px;
+    line-height: 2;
+    width: 25%;
+    z-index: 99;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
+    margin: 0 auto;
+    overflow: hidden;
+    transition: all .5s;
+    margin-top: 20px;
+}
+
+.buttonfx1 {
+    width: 50%;
+}
+
+.buttonfx2 {
+    height: 50px;
+    border: none;
+    width: 150px;
+    font-size: 14px;
+    background-color: #414958;
+    border-radius: 5px;
+}
+
+.buttonfx2 {
+    height: 50px;
+    border: none;
+    width: 150px;
+    font-size: 14px;
+    background-color: #414958;
+    border-radius: 5px;
+}
+
+.buttonfx3 {
+    background-color: #EB3154;
+    width: 190px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+}
+
+.buttonfx4 {
+    background-color: #EB3154;
+    width: 190px;
+    font-size: 12px;
+    border: none;
+    border-radius: 5px;
+}
+
+.buttonfx:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100px;
+    background-color: var(--primary-color);
+    z-index: -99;
+    transform: translate3D(0, -100%, 0);
+}
+
+.buttonfx3:after {
+    background-color: var(--secondary-color);
+}
+
+.buttonfx4:after {
+    background-color: var(--secondary-color);
+}
+
+.buttonfx3:hover {
+    color: var(--bg-color-1) !important;
+}
+
+.buttonfx4:hover {
+    color: var(--bg-color-1) !important;
+}
+
+.buttonfx:hover {
+    color: white;
+}
+
+.buttonfx:hover:after {
+    transform: translate3D(0, 0, 0);
+    transition: all .5s;
+}
+
+.angleinleft:after {
+    width: 100%;
+    transform-origin: 0 bottom;
+    transform: translate3D(-50%, 0, 0) rotate(-50deg);
+}
+
+.angleinleft:hover:after {
+    transform: rotate(0deg);
+    transition: all .5s;
+}
+
+.bouncein:hover:before,
+.bouncein:hover:after {
+    transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66) !important;
+}

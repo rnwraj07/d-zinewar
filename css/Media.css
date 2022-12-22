@@ -5,6 +5,9 @@
   .tricks .extra-clss {
     display: none;
   }
+  .cara-img{
+    display: none;
+  }
 }
 @media (max-width:992px){
     .navbar-togglar{
@@ -29,6 +32,12 @@
         margin-bottom: 20px;
     }
     .package-post{
+        margin-bottom: 20px;
+    }
+    .first-box{
+        margin-bottom: 20px;
+    }
+    .second-box{
         margin-bottom: 20px;
     }
 }
