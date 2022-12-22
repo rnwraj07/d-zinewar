@@ -522,6 +522,7 @@ ul {
 
 .clan-2 {
     background: #282F3A;
+    padding: 42px !important;
 }
 
 .part-btn {
@@ -1249,11 +1250,6 @@ ul {
 
 .cata-content {
     margin-left: 30px;
-}
-
-.lea-btn {
-    color: #262626;
-    font-size: 14px;
 }
 
 .action-bg {
