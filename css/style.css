@@ -288,10 +288,6 @@ ul {
     font-size: 50px;
 }
 
-.title-1 {
-    color: #f68b1f;
-}
-
 .blog-post {
     padding: 20px;
     overflow: hidden;
@@ -331,7 +327,7 @@ ul {
 
 .focus-content a {
     font-size: 16px;
-    color: #c5c5c5;
+    color: var(--primary-color);
     font-weight: 700;
     text-decoration: none;
     position: relative;
@@ -513,8 +509,8 @@ ul {
 }
 
 .title p {
-    font-size: 18px;
-    line-height: 28px;
+    font-size: 16px;
+    line-height: 22px;
     color: #dedede;
 }
 
@@ -695,17 +691,6 @@ ul {
     background-color: #4D4C4C;
 }
 
-.game p {
-    color: var(--secondary-color);
-    transition: ease-in-out .5s;
-    cursor: pointer;
-}
-
-
-.game p:hover {
-    color: var(--primary-color);
-}
-
 /*-------------------------------------------- section8 -------------------------------------------- */
 
 .home-work {
@@ -789,6 +774,11 @@ ul {
 
 .userlink {
     margin-right: 30px;
+}
+
+
+.userlink>.nth-uselink {
+    border-bottom: 0px;
 }
 
 .userlink li {
@@ -911,7 +901,7 @@ ul {
 
 .killer-bg-img {
     background: url(../image/killerteam.jpg);
-    height: 85vh;
+    height: 80vh;
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1052,9 +1042,13 @@ ul {
 
 .clan-bg {
     background-image: url(../image/bg-menu\ 1.png);
-    height: 80vh;
+    height: 70vh;
     background-position: center;
     background-size: cover;
+}
+
+.img-size {
+    height: 75vh;
 }
 
 .clan-heading img {
@@ -1146,12 +1140,6 @@ ul {
     background-color: var(--bg-color-3);
 }
 
-.clan-bg-1 {
-    background-image: url(../image/bg-menu\ 1.png);
-    height: 75vh;
-    background-position: center;
-    background-size: cover;
-}
 
 .clan-bg-1 p {
     color: var(--secondary-color);
@@ -1271,7 +1259,7 @@ ul {
 .loader {
     width: 100%;
     height: 100%;
-    overflow: hidden;
+    /* overflow: hidden; */
     position: absolute;
     top: 0;
     left: 0;
@@ -1281,6 +1269,7 @@ ul {
 .preloader {
     position: absolute;
     width: 100%;
+    overflow: hidden;
     height: 100vh;
     background-color: transparent;
     background-image: url(https://html.nkdev.info/godlike/assets/images/preloader-bg.png);
@@ -1349,11 +1338,11 @@ ul {
     outline: none;
     background: transparent;
     border: none;
-    border-bottom: 2px solid #eee;
+    border: 2px solid #eee;
     letter-spacing: 0.0625em;
-    padding: 8px 10px;
+    padding: 8px 30px;
     line-height: 2;
-    width: 25%;
+    width: auto;
     z-index: 99;
     position: relative;
     display: inline-block;
@@ -1426,7 +1415,7 @@ ul {
 }
 
 .buttonfx3:hover {
-    color: var(--bg-color-1) !important;
+    color: var(--bg-color-1);
 }
 
 .buttonfx4:hover {
@@ -1443,7 +1432,7 @@ ul {
 }
 
 .angleinleft:after {
-    width: 100%;
+    width: 120%;
     transform-origin: 0 bottom;
     transform: translate3D(-50%, 0, 0) rotate(-50deg);
 }
