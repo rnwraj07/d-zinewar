@@ -1,2 +1,1 @@
-"# d-zinewar" 
-"# d-zinewar" 
+no make responsive 
